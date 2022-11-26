@@ -38,7 +38,7 @@
                 android:layout_marginBottom="10dp"
                 android:text="ISLAMIC UMMAH SDN BHD"
                 android:textColor="#000000"
-                android:textSize="14sp"
+                android:textSize="19sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -48,7 +48,7 @@
                 android:layout_marginBottom="20dp"
                 android:text="' Zakat Membawa Berkat '"
                 android:textColor="#000000"
-                android:textSize="14sp"
+                android:textSize="16sp"
                 android:textStyle="italic" />
 
             <TextView
@@ -91,7 +91,7 @@
 Jalan Tun Abdul Razak,
 Presint 3,62100 Putrajaya, Malaysia"
                     android:textColor="#161616"
-                    android:textSize="14sp" />
+                    android:textSize="16sp" />
 
             </RelativeLayout>
 
@@ -118,9 +118,9 @@ Presint 3,62100 Putrajaya, Malaysia"
                     android:layout_marginTop="30dp"
                     android:layout_marginBottom="2dp"
                     android:fontFamily="sans-serif"
-                    android:text="+60114536381"
+                    android:text="+60139102141"
                     android:textColor="#161616"
-                    android:textSize="14sp" />
+                    android:textSize="16sp" />
 
             </RelativeLayout>
 
@@ -149,7 +149,7 @@ Presint 3,62100 Putrajaya, Malaysia"
                     android:fontFamily="sans-serif"
                     android:text="islamicummah@zakat.gov.my"
                     android:textColor="#161616"
-                    android:textSize="14sp" />
+                    android:textSize="16sp" />
 
             </RelativeLayout>
 
@@ -164,30 +164,32 @@ Presint 3,62100 Putrajaya, Malaysia"
                 android:textAlignment="center"
                 android:textColor="#091439"
                 android:textSize="25sp" />
-            
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="20dp"
-                android:fontFamily="sans-serif-medium"
-                android:padding="8dp"
-                android:text="NAME :"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="#081A3F"
-                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
-                android:fontFamily="sans-serif-condensed-light"
+                android:fontFamily="sans-serif-medium"
+                android:padding="8dp"
+                android:text="NAME :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#081A3F"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
                 android:padding="8dp"
                 android:text="NORFATIN NATASHA BINTI NORAZMAN"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="#081A3F" />
+                android:textColor="#081A3F"
+                android:fontFamily="serif-monospace"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -200,18 +202,21 @@ Presint 3,62100 Putrajaya, Malaysia"
                 android:text="STUDENT ID :"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="#081A3F"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textSize="16sp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
-                android:fontFamily="sans-serif-condensed-light"
                 android:padding="8dp"
                 android:text="2020605358"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="#081A3F" />
+                android:textColor="#081A3F"
+                android:fontFamily="serif-monospace"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -224,18 +229,21 @@ Presint 3,62100 Putrajaya, Malaysia"
                 android:text="GROUP :"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="#081A3F"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textSize="16sp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
-                android:fontFamily="sans-serif-condensed-light"
                 android:padding="8dp"
                 android:text="D1CS2405A"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="#081A3F" />
+                android:textColor="#081A3F"
+                android:fontFamily="serif-monospace"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -248,18 +256,21 @@ Presint 3,62100 Putrajaya, Malaysia"
                 android:text="COURSE CODE"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="#081A3F"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textSize="16sp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
-                android:fontFamily="sans-serif-condensed-light"
                 android:padding="8dp"
                 android:text="ICT602"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="#081A3F" />
+                android:textColor="#081A3F"
+                android:fontFamily="serif-monospace"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -272,7 +283,8 @@ Presint 3,62100 Putrajaya, Malaysia"
                 android:text="GITHUB LINK :"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="#081A3F"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textSize="16sp"/>
 
             <TextView
                 android:id="@+id/textViewLink"
