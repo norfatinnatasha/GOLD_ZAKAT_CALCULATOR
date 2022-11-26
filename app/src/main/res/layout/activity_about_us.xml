@@ -154,6 +154,18 @@ Presint 3,62100 Putrajaya, Malaysia"
             </RelativeLayout>
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="33dp"
+                android:layout_marginVertical="20dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="DEVELOPER DETAILS"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#091439"
+                android:textSize="25sp" />
+            
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -161,7 +173,7 @@ Presint 3,62100 Putrajaya, Malaysia"
                 android:layout_marginEnd="20dp"
                 android:fontFamily="sans-serif-medium"
                 android:padding="8dp"
-                android:text="STUDENT NAME :"
+                android:text="NAME :"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="#081A3F"
                 android:textStyle="bold" />
