@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E6DBF5"
+    tools:context=".AboutUsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="33dp"
+                android:layout_marginVertical="20dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="ABOUT US"
+                android:textAlignment="center"
+                android:textColor="#091439"
+                android:textSize="32sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="33dp"
+                android:layout_marginBottom="10dp"
+                android:text="ISLAMIC UMMAH SDN BHD"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="33dp"
+                android:layout_marginBottom="20dp"
+                android:text="' Zakat Membawa Berkat '"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:padding="8dp"
+                android:text="CONTACT US :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#091439"
+                android:textStyle="bold" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#000000"
+                    android:backgroundTint="#000000"
+                    app:srcCompat="@drawable/ic_baseline_location_on_24" />
+
+                <TextView
+                    android:layout_width="249dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="false"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="2dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Jabatan Wakaf, Zakat &amp; Haji
+                    Aras 3-6, Blok B, Kompleks Islam Putrajaya (KIP),
+Jalan Tun Abdul Razak,
+Presint 3,62100 Putrajaya, Malaysia"
+                    android:textColor="#161616"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#000000"
+                    android:backgroundTint="#000000"
+                    app:srcCompat="@android:drawable/stat_sys_speakerphone" />
+
+                <TextView
+                    android:layout_width="249dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="false"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="2dp"
+                    android:fontFamily="sans-serif"
+                    android:text="+60139102141"
+                    android:textColor="#161616"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/phoneIcon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#000000"
+                    android:backgroundTint="#000000"
+                    app:srcCompat="@drawable/ic_baseline_email_24" />
+
+                <TextView
+                    android:layout_width="249dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="false"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="2dp"
+                    android:fontFamily="sans-serif"
+                    android:text="islamicummah@zakat.gov.my"
+                    android:textColor="#161616"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:padding="8dp"
+                android:text="STUDENT NAME :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#081A3F"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:padding="8dp"
+                android:text="NORFATIN NATASHA BINTI NORAZMAN"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#081A3F" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:padding="8dp"
+                android:text="STUDENT ID :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#081A3F"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:padding="8dp"
+                android:text="2020605358"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#081A3F" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:padding="8dp"
+                android:text="GROUP :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#081A3F"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:padding="8dp"
+                android:text="D1CS2405A"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#081A3F" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:padding="8dp"
+                android:text="COURSE CODE"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#081A3F"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:padding="8dp"
+                android:text="ICT602"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#081A3F" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:padding="8dp"
+                android:text="GITHUB LINK :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#081A3F"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/github"
+                android:textColor="#081A3F"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="180dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Copyright &#169; 2022 NORFATIN NATASHA"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#081A3F" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

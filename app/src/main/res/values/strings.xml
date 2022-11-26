@@ -1,0 +1,10 @@
+<resources>
+    <string-array name="type">
+        <item>Keep</item>
+        <item>Wear</item>
+    </string-array>
+
+    <string name="github">
+        <a href="https://github.com">https://github.com</a></string>
+
+</resources>
